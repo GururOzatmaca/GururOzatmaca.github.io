@@ -1,0 +1,1 @@
+# GururOzatmaca.github.io
