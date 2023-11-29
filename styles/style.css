@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://c.wallhere.com/photos/c4/a5/winter_sea_sky_ice_water_canon_landscape_denmark-705780.jpg!d);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+
+}
+
+.formBody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formContainer{
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.form .input-field{
+    width: 100½;
+}
+
+.form .input-field input, select{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    padding: 0 15px;
+    color: black;
+}
+
+.form .column-name, .form .column-phone{
+    display: flex;
+    column-gap: 15px;
+    margin-top: 40px;
+
+}
+
+
+
+.form .column-company, .form .column-subject, .form .column-email{
+    column-gap: 15px;
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.company-input-field,.subject-input-field, .email-input-field{
+    flex-grow: 1;
+}
+
+
+
+.input-field-last{
+    margin-top: 30px;
+}
+
+.registerbutton{
+    position: relative;
+    width :200px;
+    height: 35px;
+    margin-top: 10px;
+    background-color: rgb(70, 173, 156);
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-style: none;
+}
+
+.radioButtons{
+    margin-top: 10px;
+}
+
+h2,h2 .nameh2 {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    width: 130px;
+    min-width: 130px;
+    max-width: 130px;
+    height: 40px;
+    display: inline-block;
+    margin: 0;
+}

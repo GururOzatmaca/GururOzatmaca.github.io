@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Form Sitesi</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../styles/style.css">
+
+
+</head>
+
+
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li><a href="blank.html">Home</a></li>
+        <li><a href="blank.html">Categorioes</a></li>
+        <li><a href="blank.html">About</a></li>
+        <li><a href="blank.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="formBody">
+    <div class="formContainer">
+      <form class="form" action="#">
+        <div class="fields">
+  
+          <div class="column-name">
+            <h2 class="nameh2">Name</h2>
+            <div class="input-field">
+              <input class="firstname" id="firstNameID" type="text">
+              <label class="firstnamelabel">First name</label>
+            </div>
+            <div class="input-field">
+              <input class="lastname" id="lastNameID" type="text">
+              <label class="lastnamelabel">Last name</label>
+            </div>
+          </div>
+  
+  
+  
+  
+  
+          <div class="column-company">
+            <h2 class="companyh2">Company</h2>
+  
+            <div class="input-field company-input-field">
+              <select class="option companydropdown" id="companydropdown">
+                <option disabled="disabled" selected="selected"></option>
+              </select>
+            </div>
+          </div>
+  
+  
+  
+          <div class="column-email">
+            <h2 class="emailh2 ">Email</h2>
+  
+            <div class="input-field email-input-field">
+              <input id="emailInput" class="email" type="text">
+            </div>
+          </div>
+  
+  
+  
+          <div class="column-phone">
+            <h2 class="phoneh2">Phone</h2>
+  
+            <div class="input-field areacode-input-field">
+              <select class="optionarea" id="phoneDropDownID">
+                <option disabled="disabled" selected="selected"></option>
+              </select>
+              <label class="areacodelabel">Area Code</label>
+            </div>
+  
+            <div class="input-field">
+              <input class="phonenumber" id="phoneID" type="text">
+              <label class="phonenumberlabel">Phone Number</label>
+            </div>
+  
+  
+          </div>
+  
+  
+          <div class="column-subject">
+            <h2 class="subjecth2">Subject</h2>
+            <div class="input-field subject-input-field">
+              <select class="option subject" id="subjectID">
+                <option disabled="disabled" selected="selected">--Choose Option--</option>
+              </select>
+            </div>
+  
+  
+          </div>
+  
+          <div class="input-field-last">
+            <h3 id="student" class="beginner">Are you beginner?</h3>
+            <div class="radioButtons" id="beginner">
+              <input type="radio" id="yes" value="YES">
+              <label for="yes">Yes</label>
+              <input type="radio" id="no" value="NO">
+              <label for="no">No</label><br>
+            </div>
+          </div>
+  
+  
+  
+          <div class="input-field">
+            <div class="register">
+              <button class="registerbutton" id="registerbutton" type="submit">Register</button>
+            </div>
+          </div>
+  
+  
+        </div>
+      </form>
+    </div>
+
+
+  </div>
+
+
+
+  <script src="../scripts/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
